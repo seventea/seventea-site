@@ -1,9 +1,10 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source "http://rubygems.org"
+source "https://rubygems.org"
 
+gem 'proteus-kits'
 gem "middleman"
 gem "middleman-livereload"
 gem "middleman-deploy"
+gem "middleman-minify-html"
+gem 'middleman-imageoptim'
 gem "bourbon"
 gem "neat"
